@@ -1,0 +1,18 @@
+{
+  "sauvegarde-auto-minutes": 5,
+  "affichage": { "barre-action": true },
+  "anti-abus": {
+    "ignorer-blocs-poses": true,
+    "xp-en-creatif": false,
+    "mondes-desactives": []
+  },
+  "multiplicateurs": {
+    "koriajobs.boost.150": 1.5,
+    "koriajobs.boost.200": 2.0
+  },
+  "cultures-modees": { "RADIS_CROP": 7, "AVOCAT_CROP": 7, "PETIT_ROND_CROP": 7, "MELON_CROP": 7 },
+  "sons": {
+    "niveau": "LEVEL_UP:0.8:1.2",
+    "niveau-max": "ENDERDRAGON_GROWL:0.5:1.4"
+  }
+}

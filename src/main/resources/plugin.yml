@@ -1,0 +1,17 @@
+name: KoriaJobs
+version: ${project.version}
+main: fr.koriamc.jobs.KoriaJobs
+author: KoriaMC
+description: ${project.description}
+softdepend: [Vault]
+
+commands:
+  jobs:
+    description: Métiers (chasseur, agriculteur, mineur, pharmacien, pêcheur)
+    aliases: [job, metiers, metier]
+    usage: /jobs [info|top] [métier]
+
+permissions:
+  koriajobs.admin:
+    description: Commandes d'administration (/jobs addxp, setxp, reload)
+    default: op

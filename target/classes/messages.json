@@ -1,0 +1,52 @@
+{
+  "prefix": "&8[&6Métiers&8] ",
+  "xp-gain": "[actionbar]&a+{gain} XP &8» {metier} &7niv. &f{niveau} &8[{barre}&8] &7{xp}/{requis}",
+  "level-up": [
+    "[title]&6&lNIVEAU {niveau} !;;{metier} &7niveau &f{niveau}&7/&f{max}",
+    "{prefix}{metier} &7passe au niveau &6&l{niveau}&7/&f{max} &7!"
+  ],
+  "level-up-reward": "&8 » &f{recompense}",
+  "unlock": "&8 » &aDéblocage : &f{deblocage}",
+  "max-announce": "{prefix}&6&l{joueur} &ea atteint le niveau maximum du métier {metier} &e!",
+  "menu": {
+    "titre": "&8Métiers",
+    "nom": "{metier} &7- niveau &f{niveau}",
+    "lore": ["", "&7Niveau &f{niveau}&7/&f{max}", "&8[{barre}&8] &7{pourcentage}%", "&7XP : &f{xp}&7/&f{requis}"],
+    "lore-max": ["", "&6&lNiveau maximum &7({max}/{max})", "&7XP : &f{xp}"],
+    "prochaine": "&eProchain niveau :",
+    "ligne": "&8 » &f{texte}",
+    "clic": "&8Clic : détail du métier"
+  },
+  "details": {
+    "entete": ["&6&m-------&r {metier} &6&m-------", "&7Niveau &f{niveau}&7/&f{max} &8[{barre}&8] &7{xp}/{requis}", "&eXP gagnée :"],
+    "xp": "&8 » &f{cle} &7: &a{xp} XP",
+    "niveau": "&8 » &7Niv. &f{niveau} &8({xp} XP) &7: &f{recompense}"
+  },
+  "top": {
+    "entete": "&6&m-----&r &eClassement {metier} &6&m-----",
+    "ligne": "&6#{rang} &f{joueur} &7- niv. &f{niveau} &8({xp} XP)"
+  },
+  "commande": {
+    "aide": ["&6/jobs &7: menu des métiers", "&6/jobs info <métier> &7: détail d'un métier", "&6/jobs top <métier> &7: classement", "&c/jobs addxp|setxp <joueur> <métier> <xp>", "&c/jobs reload"],
+    "joueur-seulement": "{prefix}&cCommande réservée aux joueurs.",
+    "metier-inconnu": "{prefix}&cMétier inconnu. Métiers : &f{metiers}",
+    "permission": "{prefix}&cVous n'avez pas la permission.",
+    "recharge": "{prefix}&aConfiguration rechargée ({problemes} problème(s)).",
+    "usage-admin": "{prefix}&c/jobs addxp|setxp <joueur> <métier> <xp>",
+    "joueur-hors-ligne": "{prefix}&c{joueur} n'est pas connecté.",
+    "xp-modifiee": "{prefix}&aXP de &f{joueur} &amodifiée dans {metier}&a."
+  },
+  "deblocages": {
+    "medicament_jaune": "&eMédicament jaune",
+    "medicament_vert": "&aMédicament vert",
+    "machine_medicale": "&bCraft de la machine médicale",
+    "medicament_orange": "&6Médicament orange",
+    "medicament_marron": "&6Médicament marron",
+    "medicament_rose": "&dMédicament rose",
+    "medicament_gris": "&7Médicament gris",
+    "medicament_violet": "&5Médicament violet",
+    "medicament_noir": "&8Médicament noir",
+    "medicament_blanc": "&fMédicament blanc"
+  },
+  "noms": {}
+}

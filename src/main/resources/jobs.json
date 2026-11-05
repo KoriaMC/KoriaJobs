@@ -1,0 +1,204 @@
+{
+  "chasseur": {
+    "actif": true,
+    "nom": "&cChasseur",
+    "icone": "DIAMOND_SWORD",
+    "source": "TUER",
+    "description": ["&7Tuez des mobs pour gagner de l'XP.", "&7Les mobs de spawner comptent."],
+    "niveaux": [10000, 30000, 65000, 110000, 175000, 260000, 370000, 510000, 680000, 880000, 1110000, 1380000, 1690000, 2040000, 2430000, 2860000, 3350000, 3880000, 4430000, 5000000],
+    "xp": {
+      "PIG": 2,
+      "SHEEP": 2,
+      "COW": 3,
+      "CHICKEN": 1,
+      "PIG_ZOMBIE": 8,
+      "SPIDER": 5,
+      "CAVE_SPIDER": 5,
+      "SKELETON": 6,
+      "BLAZE": 10,
+      "ENDERMAN": 12,
+      "WITCH": 12,
+      "ZOMBIE": 6,
+      "IRON_GOLEM": 8,
+      "KOALA": 15
+    },
+    "recompenses": {}
+  },
+  "agriculteur": {
+    "actif": true,
+    "nom": "&eAgriculteur",
+    "icone": "WHEAT",
+    "source": "RECOLTER",
+    "description": ["&7Récoltez des cultures mûres.", "&7Les cultures modées rapportent plus."],
+    "niveaux": [3000, 10000, 25000, 50000, 90000, 150000, 250000, 400000, 650000, 1000000, 1500000, 2200000, 3000000, 4000000, 5500000, 7500000, 10000000, 13500000, 17000000, 25000000],
+    "xp": {
+      "POTATO": 6,
+      "CARROT": 6,
+      "MELON_BLOCK": 4,
+      "CROPS": 6,
+      "NETHER_WARTS": 14,
+      "PUMPKIN": 4,
+      "RADIS_CROP": 18,
+      "AVOCAT_CROP": 18,
+      "PETIT_ROND_CROP": 18,
+      "MELON_CROP": 18
+    },
+    "recompenses": {}
+  },
+  "mineur": {
+    "actif": true,
+    "nom": "&7Mineur",
+    "icone": "DIAMOND_PICKAXE",
+    "source": "MINER",
+    "description": ["&7Minez de la roche et des minerais.", "&7Les blocs posés ne comptent pas."],
+    "niveaux": [1500, 4000, 8000, 15000, 25000, 40000, 60000, 85000, 115000, 150000, 190000, 235000, 285000, 340000, 400000, 465000, 535000, 650000, 775000, 900000],
+    "xp": {
+      "STONE": 1,
+      "COAL_ORE": 2,
+      "REDSTONE_ORE": 2,
+      "GLOWING_REDSTONE_ORE": 2,
+      "IRON_ORE": 3,
+      "GOLD_ORE": 5,
+      "DIAMOND_ORE": 6,
+      "EMERALD_ORE": 8,
+      "JADE_ORE": 9,
+      "AMETHYSTE_ORE": 11,
+      "APATITE_ORE": 12,
+      "LITHIUM_ORE": 7,
+      "RANDOM_ORE": 15
+    },
+    "recompenses": {}
+  },
+  "pharmacien": {
+    "actif": true,
+    "nom": "&dPharmacien",
+    "icone": "POTION",
+    "source": "FABRIQUER",
+    "description": ["&7Fabriquez des médicaments", "&7(table de chimie, machine médicale)."],
+    "niveaux": [2000, 4000, 5000, 7000, 9000, 10000, 11000, 12000, 15100, 17100, 18550, 22000, 27000, 32000, 39000, 49000, 66000, 73100, 79100, 90000],
+    "xp": {
+      "MEDICAMENT_BLEU": 50,
+      "MEDICAMENT_ROUGE": 50,
+      "MEDICAMENT_JAUNE": 150,
+      "MEDICAMENT_VERT": 150,
+      "MEDICAMENT_ORANGE": 200,
+      "MEDICAMENT_MARRON": 200,
+      "MEDICAMENT_ROSE": 350,
+      "MEDICAMENT_GRIS": 350,
+      "MEDICAMENT_VIOLET": 350,
+      "MEDICAMENT_NOIR": 500,
+      "MEDICAMENT_BLANC": 500
+    },
+    "recompenses": {
+      "1": {
+        "actions": ["ARGENT:2000"],
+        "texte": ["2 000 $"]
+      },
+      "2": {
+        "actions": ["ITEM:ENDER_PEARL:64"],
+        "texte": ["64 perles de l'Ender"]
+      },
+      "3": {
+        "actions": [
+          "CONSOLE:kit constructeur {joueur}"
+        ],
+        "texte": ["Kit Constructeur"]
+      },
+      "5": {
+        "actions": ["ITEM:GOLDEN_APPLE:1:8"],
+        "texte": ["8 pommes cheat"]
+      },
+      "6": {
+        "actions": ["ITEM:KORIUM_NUGGET:3"],
+        "texte": ["3 pépites de korium"]
+      },
+      "9": {
+        "actions": [
+          "CONSOLE:cle give {joueur} tropique 1"
+        ],
+        "texte": ["1 clé tropique"]
+      },
+      "10": {
+        "actions": [],
+        "texte": ["La machine produit 3 fois plus vite"]
+      },
+      "11": {
+        "actions": ["ITEM:KORIUM_FRAGMENT:1"],
+        "texte": ["1 fragment de korium"]
+      },
+      "13": {
+        "actions": ["ITEM:RANDOM_ORE:32"],
+        "texte": ["32 Random Ores"]
+      },
+      "14": {
+        "actions": ["ARGENT:8000"],
+        "texte": ["8 000 $"]
+      },
+      "15": {
+        "actions": [],
+        "texte": ["La machine produit 6 fois plus vite"]
+      },
+      "17": {
+        "actions": ["ITEM:MONSTER_EGG:50:4"],
+        "texte": ["4 oeufs de creeper"]
+      },
+      "18": {
+        "actions": ["ARGENT:10000"],
+        "texte": ["10 000 $"]
+      },
+      "19": {
+        "actions": ["ITEM:KORIUM_FRAGMENT:3"],
+        "texte": ["3 fragments de korium"]
+      },
+      "20": {
+        "actions": [],
+        "texte": ["La machine produit 12 fois plus vite"]
+      }
+    },
+    "deblocages": {
+      "medicament_bleu": 0,
+      "medicament_rouge": 0,
+      "medicament_jaune": 4,
+      "medicament_vert": 4,
+      "machine_medicale": 7,
+      "medicament_orange": 8,
+      "medicament_marron": 8,
+      "medicament_rose": 12,
+      "medicament_gris": 12,
+      "medicament_violet": 12,
+      "medicament_noir": 16,
+      "medicament_blanc": 16
+    },
+    "bonus": {
+      "vitesse-machine": {
+        "0": 1,
+        "10": 3,
+        "15": 6,
+        "20": 12
+      }
+    }
+  },
+  "pecheur": {
+    "actif": true,
+    "nom": "&bPêcheur",
+    "icone": "FISHING_ROD",
+    "source": "PECHER",
+    "description": ["&7Pêchez des poissons.", "&7Les poissons communs, rares, épiques", "&7et légendaires demandent la canne du Toucan."],
+    "niveaux": [180, 240, 280, 320, 600, 750, 850, 1250, 1850, 2100, 2350, 2700, 3000, 3500, 3850, 4500, 5000, 6650, 7500, 8250],
+    "xp": {
+      "RAW_FISH:0": 8,
+      "RAW_FISH:1": 8,
+      "RAW_FISH:2": 100,
+      "RAW_FISH:3": 16,
+      "TRUITE": 50,
+      "ANGUILLE": 60,
+      "ESPADON": 80,
+      "PIRANHA": 90,
+      "RAIE": 400,
+      "REQUIN_BLANC": 350,
+      "CARPE_DOREE": 700,
+      "CRABE": 600
+    },
+    "recompenses": {}
+  }
+}
